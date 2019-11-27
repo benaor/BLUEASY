@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .color_blue{
@@ -25,15 +26,14 @@ a, a:visited {
 
 .container_large{
     width: 100%;
+    min-width: 1170px;
 }
 
 .container{
     width: 1170px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
-    justify-content: space-between; 
     height: 100%;
-    align-items: center;
 }
 
 /* ============================================================ PREMIERE PARTIE ======================================================= */
@@ -41,8 +41,13 @@ a, a:visited {
 .first_container{
     background-image: url("images/fond1.jpg");
     height: 800px;
-    font-family: 'Segoe UI', sans-serif;
 }
+
+.container_pt1{
+    justify-content: space-between; 
+    align-items: center;
+}
+
 /* header dans premiere partie */
 .header_container{
     height: 150px;
@@ -50,6 +55,8 @@ a, a:visited {
     opacity: 85%;
     font-weight: bold;
 }
+
+
 /* titre du site */
 h1, h1 a{
     color: var(--color-white---);
@@ -85,13 +92,71 @@ h1, h1 a{
 }
 
 /* ------------ Div de bienvenue ------------*/
+#home{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
 
+#home p{
+    background-color: var(--color-grey-fnc);
+    background-size: auto;
+    opacity: 85%;
+    color: var(--color-white---);
+    font-size: 42px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    margin: 12px auto;
+}
 
+.width70{
+    width: 70%;
+}
 /* ============================================================ DEUXIEME PARTIE ======================================================= */
 
 .second_container{
     background-color: var(--color-blue-sky);
     height: 405px;
+    color: var(--color-white---);
+}
+
+.container_pt2{
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.second_container .souligne{
+    border-bottom: var(--color-white---) solid 2px;
+}
+
+
+.row_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_pt2:not(.logo_not){
+    margin-right: 30px;
+}
+
+.logo_pt2 h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo_pt2 p {
+    font-size: 12px;
+    font-weight: 600;
 }
 
 /* ============================================================ TROISIEME PARTIE ======================================================= */
