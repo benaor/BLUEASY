@@ -5,6 +5,12 @@ body{
     font-family: 'Segoe UI', sans-serif;
 }
 
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
 .color_blue{
     color: var(--color-blue-sky);
 }
@@ -13,6 +19,10 @@ a, a:visited {
     text-decoration: none;
 }
 
+li {
+    text-transform: uppercase;
+    list-style:none;
+}
 /* ============================================================ MES VARIABLES ========================================================= */
 :root{
     --color-blue-sky : #4bcaff;
@@ -36,6 +46,17 @@ a, a:visited {
     height: 100%;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 /* ============================================================ PREMIERE PARTIE ======================================================= */
 
 .first_container{
@@ -68,27 +89,26 @@ h1, h1 a{
 .nav_button{
     display: flex;
     justify-content: space-between;
-    list-style:none;
 }
 
 .button_header{
     height: 35px;
     align-items: center;
-    margin: 0 10px;   
+    margin: 0 5px 0 0;   
     display: flex;
-    justify-content: flex-end;
-    box-sizing: border-box;
+    justify-content: space-around;
 }
 
 .button_header a{
+    font-size: 14px;
     color: var(--color-white---);
+    border: transparent solid 3px;
     padding: 10px 15px;
 }
 
 .button_header a:hover {
     color: var(--color-blue-sky);
     border: var(--color-blue-sky) solid 3px;
-    margin-left: -6px;
 }
 
 /* ------------ Div de bienvenue ------------*/
@@ -100,7 +120,6 @@ h1, h1 a{
 
 #home p{
     background-color: var(--color-grey-fnc);
-    background-size: auto;
     opacity: 85%;
     color: var(--color-white---);
     font-size: 42px;
@@ -126,12 +145,6 @@ h1, h1 a{
 .container_pt2{
     flex-direction: column;
     justify-content: center;
-}
-
-h2{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: lighter;
 }
 
 .second_container .souligne{
@@ -161,8 +174,73 @@ h2{
 
 /* ============================================================ TROISIEME PARTIE ======================================================= */
 
+/* en-tête de la partie */
 .third_container{
     height: 845px;
+    color: var(--color-grey-bet);
+}
+
+.third_container .souligne{
+    border-bottom: var(--color-grey-bet) solid 2px;
+}
+
+.menu_portfolio h2{
+    padding-bottom: 10px;
+}
+
+.menu_portfolio{
+    align-items: center;
+}
+
+.nav_portfolio{
+    align-items: flex-end;
+}
+
+.nav_portfolio li{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: solid transparent 2px;
+}
+
+.nav_portfolio li:hover{
+    color: var(--color-blue-sky);
+    border: solid var(--color-blue-sky) 2px;
+}
+
+/* Bloc contenant les images */
+
+.row_8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.div_photo_pt3{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.div_photo_pt3 a{
+    color: var(--color-white---);
+}
+
+.photo_pt{
+    position: absolute;
+    background-color: var(--color-grey-fnc);
+    opacity: 0%;
+    width: 270px;
+    height: 270px;
+    top: 0; left: 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+.photo_pt:hover{
+    opacity: 70%;
+    color: var(--color-white---);
 }
 
 /* ============================================================ QUATRIEME PARTIE ======================================================= */
