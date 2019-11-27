@@ -1,0 +1,143 @@
+/* ============================================================ Ensembles du document ================================================= */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.color_blue{
+    color: var(--color-blue-sky);
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+/* ============================================================ MES VARIABLES ========================================================= */
+:root{
+    --color-blue-sky : #4bcaff;
+    --color-grey-bet : #515f67;
+    --color-grey-fnc : #353f47;
+    --color-white--- : #ffffff;
+}
+
+
+/* ============================================================ MES GRILLADES ========================================================= */
+
+.container_large{
+    width: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    align-items: center;
+}
+
+/* ============================================================ PREMIERE PARTIE ======================================================= */
+
+.first_container{
+    background-image: url("images/fond1.jpg");
+    height: 800px;
+    font-family: 'Segoe UI', sans-serif;
+}
+/* header dans premiere partie */
+.header_container{
+    height: 150px;
+    background-color: var(--color-grey-fnc);
+    opacity: 85%;
+    font-weight: bold;
+}
+/* titre du site */
+h1, h1 a{
+    color: var(--color-white---);
+    font-size: 30px;
+
+}
+
+/* navigation */
+.nav_button{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+}
+
+.button_header{
+    height: 35px;
+    align-items: center;
+    margin: 0 10px;   
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.button_header a{
+    color: var(--color-white---);
+    padding: 10px 15px;
+}
+
+.button_header a:hover {
+    color: var(--color-blue-sky);
+    border: var(--color-blue-sky) solid 3px;
+    margin-left: -6px;
+}
+
+/* ------------ Div de bienvenue ------------*/
+
+
+/* ============================================================ DEUXIEME PARTIE ======================================================= */
+
+.second_container{
+    background-color: var(--color-blue-sky);
+    height: 405px;
+}
+
+/* ============================================================ TROISIEME PARTIE ======================================================= */
+
+.third_container{
+    height: 845px;
+}
+
+/* ============================================================ QUATRIEME PARTIE ======================================================= */
+
+.fourth_container{
+    height: 472px;
+    background-color: var(--color-grey-bet) ;
+}
+
+/* ============================================================ CINQUIEME PARTIE ======================================================= */
+
+.fifth_container{
+    height: 305px;
+    background-color: var(--color-blue-sky) ;
+}
+
+/* ============================================================ SIXIEME PARTIE ========================================================= */
+
+.sixth_container{
+    height: 505px;
+    background-image: url("images/fond2.jpg");
+}
+
+/* ============================================================ SEPTIEME PARTIE ======================================================== */
+
+.seventh_container{
+    height: 360px;
+}
+
+/* ============================================================ HUITIEME PARTIE ======================================================== */
+
+.heighth_container{
+    height: 814px;
+    background-image: url("images/fond3.jpg");
+}
+
+/* ============================================================ NEUVIEME PARTIE ======================================================== */
+
+.ninth_container{
+    height: 170px;
+    background-color: var(--color-grey-fnc);
+}
+
