@@ -23,6 +23,14 @@ li {
     text-transform: uppercase;
     list-style:none;
 }
+
+.bold{
+    font-weight: bold;
+}
+
+.regular{
+    font-weight: normal;
+}
 /* ============================================================ MES VARIABLES ========================================================= */
 :root{
     --color-blue-sky : #4bcaff;
@@ -259,7 +267,6 @@ h1, h1 a{
 .fourth_container p{
     font-size: 14px;
 }
-    
 
 .column_pt4{
     height: 315px;
@@ -293,6 +300,33 @@ h1, h1 a{
 .fifth_container{
     height: 305px;
     background-color: var(--color-blue-sky) ;
+}
+
+.container_pt5 {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header_twitter h2 {
+    color: var(--color-white---);
+    margin: 0;
+}
+
+ .header_twitter .souligne{
+    border-bottom: var(--color-white---) solid 2px;
+ }
+
+.fifth_container p{
+    font-size: 28px;
+    color: var(--color-white---);
+    font-weight: lighter;
 }
 
 /* ============================================================ SIXIEME PARTIE ========================================================= */
