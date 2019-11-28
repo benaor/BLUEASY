@@ -58,7 +58,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    width: 100%;
 }
 
 .column{
@@ -264,6 +264,10 @@ h1, h1 a{
     border-bottom: var(--color-white---) solid 2px;  
 }
 
+.container_pt4{
+    align-items: center;
+}
+
 .fourth_container p{
     font-size: 14px;
 }
@@ -336,10 +340,72 @@ h1, h1 a{
     background-image: url("images/fond2.jpg");
 }
 
+.container_pt6{
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+}
+
+.container_pt6 h2{
+    color: var(--color-white---);
+
+}
+
+.container_pt6 .souligne{
+    border-bottom: var(--color-white---) solid 2px;
+}
+
+.container_pt6 p{
+    font-size: 14px;
+    color: var(--color-white---);
+}
+
+.bloc_pt6{
+    height: 100%;
+    width: 48%;
+}
+
+.pt6_1{
+    margin-right: 30px;
+}
+
 /* ============================================================ SEPTIEME PARTIE ======================================================== */
 
 .seventh_container{
     height: 360px;
+}
+
+.header_pt7 h2{
+    color: var(--color-grey-bet);
+}
+
+.header_pt7 .souligne {
+    border-bottom: 2px solid var(--color-grey-bet);
+}
+
+.header_pt7 .guy{
+    font-family: sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: var(--color-grey-bet);
+    margin: 20px 0 0 0;
+}
+
+.container_pt7{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_pt7 p{
+    font-weight: lighter;
+    font-size: 28px;
+    color: var(--color-grey-bet);
+}
+
+.container_pt7 .walter{
+    color: var(--color-blue-sky);
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* ============================================================ HUITIEME PARTIE ======================================================== */
@@ -347,6 +413,81 @@ h1, h1 a{
 .heighth_container{
     height: 814px;
     background-image: url("images/fond3.jpg");
+}
+
+.container_pt8{
+    flex-direction: column;
+    color: var(--color-white---);
+    justify-content: center;
+}
+
+.container_pt8 .souligne{
+    border-bottom: var(--color-white---) solid 2px;
+}
+
+.heighth_container label{
+    color: var(--color-white---);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.row_contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.bloc_contact{
+    width: 48%;
+    color: var(--color-white---);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.txt_contact{
+    line-height: 2;
+}
+
+/* taille input */
+.bloc_contact input{
+    width: 470px;
+    height: 60px;
+    background: none;
+    border: var(--color-white---) 2px solid;
+    margin-bottom: 40px;
+}
+
+.contact_input {
+    display: flex;
+    flex-direction: column;
+}
+/* ------------ textarea dans contact ---------------- */
+.message_contact{
+    width: 100%;
+
+}
+
+.message_contact textarea{
+    width: 100%;
+    height: 220px;
+    background: transparent;
+    border: var(--color-white---) solid 2px;
+    margin-bottom: 10px;
+}
+
+/* ------------ bouton dans contact ----------------- */
+.bouton_contact{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-white---);
+    background-color: var(--color-blue-sky);
+    padding: 25px 150px;
+    border: solid 1px transparent;
 }
 
 /* ============================================================ NEUVIEME PARTIE ======================================================== */
