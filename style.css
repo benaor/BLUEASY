@@ -115,6 +115,7 @@ h1, h1 a{
     padding: 10px 15px;
 }
 
+
 .button_header a:hover {
     color: var(--color-blue-sky);
     border: var(--color-blue-sky) solid 3px;
@@ -460,6 +461,8 @@ h1, h1 a{
     background: none;
     border: var(--color-white---) 2px solid;
     margin-bottom: 40px;
+    color:var(--color-white---);
+    font-size: 14px;
 }
 
 .contact_input {
@@ -469,7 +472,6 @@ h1, h1 a{
 /* ------------ textarea dans contact ---------------- */
 .message_contact{
     width: 100%;
-
 }
 
 .message_contact textarea{
@@ -478,6 +480,8 @@ h1, h1 a{
     background: transparent;
     border: var(--color-white---) solid 2px;
     margin-bottom: 10px;
+    color:var(--color-white---);
+    font-size: 14px;
 }
 
 /* ------------ bouton dans contact ----------------- */
@@ -497,3 +501,36 @@ h1, h1 a{
     background-color: var(--color-grey-fnc);
 }
 
+.container_footer{
+    color: var(--color-white---);
+    opacity: 50%;
+    display: flex;
+    justify-items: center;
+}
+
+.row_footer{
+    margin: auto;
+}
+
+.nav_footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_footer li a{
+    color: var(--color-white---);
+    opacity: 50%;
+    border-right: solid 1px rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+}
+
+.nav_footer li a:hover{
+    color: var(--color-white---);
+    border-right: solid 1px rgba(255, 255, 255, 0.5);
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+ul.nav_footer{
+    padding-left: 0;
+}
