@@ -50,6 +50,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .column{
@@ -248,7 +249,44 @@ h1, h1 a{
 .fourth_container{
     height: 472px;
     background-color: var(--color-grey-bet) ;
+    color: var(--color-white---);
 }
+
+.fourth_container .souligne{
+    border-bottom: var(--color-white---) solid 2px;  
+}
+
+.fourth_container p{
+    font-size: 14px;
+}
+    
+
+.column_pt4{
+    height: 315px;
+    justify-content: space-between;  
+}
+
+.column_pt4 h2{
+    margin: 0;
+}
+
+.fourth_container a, .fourth_container a:visited {
+    padding: 15px 40px;
+    color: var(--color-grey-fnc);
+    border: 2px var(--color-grey-fnc)  solid;
+    font-weight: bold;
+}
+
+.fourth_container a:hover {
+    border-color: var(--color-blue-sky);
+    color: var(--color-blue-sky);
+}
+
+.fourth_container iframe{
+    margin-left: 130px;
+}
+
+
 
 /* ============================================================ CINQUIEME PARTIE ======================================================= */
 
